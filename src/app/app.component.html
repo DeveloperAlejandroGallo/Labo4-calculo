@@ -1,0 +1,25 @@
+<h1>Calculo de Edades</h1>
+<div>
+    <label>Edad 1: </label>
+    <input type="text" id="edad1">
+</div>
+<div>
+    <label>Edad 2: </label>
+    <input type="text" id="edad2">
+</div>
+<br>
+<div>
+    <input type="button" id="btnCalcular" value="Calcular" (click)="btnCalcular_click()">
+    <input type="button" id="btnLimpiar" value="Limpiar" (click)="btnLimpiar_click()">
+</div>
+<br>
+<div>
+    <label>Suma: </label>
+    <input type="text" id="resultadoSuma">
+</div>
+<div>
+    <label>Promedio: </label>
+    <input type="text" id="resultadoPromedio">
+</div>
+
+<router-outlet></router-outlet>
